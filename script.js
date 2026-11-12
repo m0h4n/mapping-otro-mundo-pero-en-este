@@ -1,17 +1,9 @@
 
 window.onload = function () {
  const layers = [
-  "arriba-izquierda",
-  "arriba-centro",
-  "lateral-derecha",
-  "centro-izquierda1",
-  "centro-izquierda2",
-  "centro-centro",
-  "abajo-izquierda1",
-  "abajo-izquierda2",
-  "abajo-centro",
-  "abajo-derecha1",
-  "abajo-derecha2"
+  "pared-1",
+  "pared-2",
+  "piso",
 ];
   window.mapper = new Maptastic({
     autoLoad: false,
