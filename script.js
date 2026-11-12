@@ -3,7 +3,7 @@ window.onload = function () {
  const layers = [
   "pared-1",
   "pared-2",
-  "piso",
+  "piso"
 ];
   window.mapper = new Maptastic({
     autoLoad: false,
