@@ -8,38 +8,20 @@ body {
   color: #fff;
   font-family: sans-serif;
 }
-/* .map {
-  display: inline-block;
-  width: 200px;
-  height: 200px;
-  margin: 1rem;
-}
-.map iframe {
-  display: block;
-  width: 100%;
-  height: 100%;
-  border: none;
-} */
-
 .map {
   display: inline-block;
   width: 200px;
   height: 200px;
   margin: 1rem;
-  overflow: hidden;
-  background: #000;
 }
 .map iframe {
   display: block;
   width: 100%;
   height: 100%;
   border: none;
-  height: 56.25%;
-  top: 21.875%;
-  left: 0;
-  border: none;
+  /* transform: scale(0.75);
+  transform-origin: top left; */
 }
-
 /* Opcional: iframe circular */
 /*
 #rumiar iframe {
