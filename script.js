@@ -20,4 +20,4 @@ window.onload = function () {
       window.mapper.setConfigEnabled(editing);
     }
   }, true);
-};
+}
